@@ -1,0 +1,8 @@
+{
+    "maintenance": false,
+    "maintenance_message": "En mantenimiento",
+    "online": "both",
+    "client_id": "<MICROSOFT_CLIENT_ID>",
+    "dataDirectory": "Minecraft",
+    "rss": null
+}
