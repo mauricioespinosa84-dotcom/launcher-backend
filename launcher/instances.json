@@ -1,33 +1,45 @@
 {
   "Forge": {
     "name": "Forge",
-    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge",
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/manifest.json",
     "loader": {
       "loader_type": "forge",
       "loader_version": "47.4.10",
       "minecraft_version": "1.20.1"
     },
     "verify": true,
-    "ignored": ["logs"],
+    "ignored": [
+      "logs"
+    ],
     "whitelistActive": false,
     "whitelist": [],
-    "status": { "nameServer": "Servidor", "ip": "127.0.0.1", "port": 25565 },
+    "status": {
+      "nameServer": "Servidor",
+      "ip": "127.0.0.1",
+      "port": 25565
+    },
     "jvm_args": [],
     "game_args": []
   },
   "Vanilla": {
     "name": "Vanilla",
-    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/vanilla",
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/vanilla/manifest.json",
     "loader": {
       "loader_type": "none",
       "loader_version": "none",
       "minecraft_version": "1.20.1"
     },
     "verify": true,
-    "ignored": ["logs"],
+    "ignored": [
+      "logs"
+    ],
     "whitelistActive": false,
     "whitelist": [],
-    "status": { "nameServer": "Servidor", "ip": "127.0.0.1", "port": 25565 },
+    "status": {
+      "nameServer": "Servidor",
+      "ip": "127.0.0.1",
+      "port": 25565
+    },
     "jvm_args": [],
     "game_args": []
   }
