@@ -666,22 +666,10 @@
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
     },
     {
-        "path": "libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar",
-        "hash": "94dae566be650566ea9115a1414ab76bfcf5a804",
-        "size": 118913,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
-    },
-    {
         "path": "libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar",
         "hash": "2dd456356718e73c81a72bb33fd713863b5c6beb",
         "size": 118907,
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar"
-    },
-    {
-        "path": "libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar",
-        "hash": "a262fa19e65f643aae210b4275b53bee053aa765",
-        "size": 170518,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
     },
     {
         "path": "libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.16/fmlearlydisplay-1.20.1-47.4.16.jar",
@@ -690,28 +678,10 @@
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.16/fmlearlydisplay-1.20.1-47.4.16.jar"
     },
     {
-        "path": "libraries/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar",
-        "hash": "55c46d27e7cfc8b829af8a28e562a7d290fa38b6",
-        "size": 267079,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
-    },
-    {
         "path": "libraries/net/minecraftforge/fmlloader/1.20.1-47.4.16/fmlloader-1.20.1-47.4.16.jar",
         "hash": "1622e95e9c7c730b911719a599bfe63116bebd5d",
         "size": 269260,
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/fmlloader/1.20.1-47.4.16/fmlloader-1.20.1-47.4.16.jar"
-    },
-    {
-        "path": "libraries/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar",
-        "hash": "4d8a9a63dc16a45d7fc5c54c627234f601d0cc17",
-        "size": 4848366,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
-    },
-    {
-        "path": "libraries/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar",
-        "hash": "41747347bacead85302e07082073fb46c2f69361",
-        "size": 2777708,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
     },
     {
         "path": "libraries/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-client.jar",
@@ -768,34 +738,16 @@
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar"
     },
     {
-        "path": "libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar",
-        "hash": "ccc533c7dd67e0983217197d7549c8b49e7ab453",
-        "size": 16854,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
-    },
-    {
         "path": "libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar",
         "hash": "4de914f18f755c1d5e11d9842c52e48312928187",
         "size": 16849,
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar"
     },
     {
-        "path": "libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar",
-        "hash": "e9a2879fe3612ea34b9728ec2633304a1e67d480",
-        "size": 7398,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
-    },
-    {
         "path": "libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar",
         "hash": "8de956db8928e6196ccdf9f39fa59fedd5edbf0a",
         "size": 7393,
         "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar"
-    },
-    {
-        "path": "libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar",
-        "hash": "ec5cefbbc65c67302b8fac317010faab85fa14b9",
-        "size": 4999,
-        "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
     },
     {
         "path": "libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar",
