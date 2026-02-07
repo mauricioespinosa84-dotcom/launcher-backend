@@ -16,9 +16,9 @@
       "ip": "tu-dominio.com",
       "port": 25565
     },
-    "icon": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/forge-icon.png",
-    "thumbnail": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/forge-thumb.jpg",
-    "background": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/forge-bg.jpg",
+    "background": "assets/images/instances/forge-bg.jpg",
+"icon": "assets/images/instances/forge-icon.png",
+"thumbnail": "assets/images/instances/forge-thumb.jpg"
     "jvm_args": [],
     "game_args": []
   },
