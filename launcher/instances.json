@@ -26,6 +26,8 @@
   "Vanilla": {
     "name": "Vanilla",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/vanilla/manifest.json",
+    "maintenance": true,
+    "maintenancemsg": "Servidor en mantenimiento. Vuelve más tarde.",
     "loader": {
       "loader_type": "none",
       "loader_version": "none",
