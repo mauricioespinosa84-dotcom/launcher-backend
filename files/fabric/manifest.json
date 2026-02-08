@@ -1758,6 +1758,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/GlitchCore-fabric-1.21.1-2.1.0.0.jar"
   },
   {
+    "path": "mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+    "hash": "4a969dae334681103d3a0977b9448be0c7f4fe07",
+    "size": 337990,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+  },
+  {
     "path": "versions/fabric-loader-0.18.4-1.21.1/client.txt",
     "hash": "2244b6f072256667bcd9a73df124d6c58de77992",
     "size": 9598610,
