@@ -16,9 +16,9 @@
       "ip": "tu-dominio.com",
       "port": 25565
     },
-    "background": "assets/images/instances/forge-bg.jpg",
-"icon": "assets/images/instances/forge-icon.png",
-"thumbnail": "assets/images/instances/forge-thumb.jpg"
+    "background": "launcher/images/instances/forge-bg.jpg",
+    "icon": "launcher/images/instances/forge-icon.png",
+    "thumbnail": "launcher/images/instances/forge-thumb.jpg",
     "jvm_args": [],
     "game_args": []
   },
@@ -39,9 +39,9 @@
       "ip": "tu-dominio.com",
       "port": 25565
     },
-    "icon": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/vanilla-icon.png",
-    "thumbnail": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/vanilla-thumb.jpg",
-    "background": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/launcher/images/instances/vanilla-bg.jpg",
+    "background": "launcher/images/instances/vanilla-bg.jpg",
+    "icon": "launcher/images/instances/vanilla-icon.png",
+    "thumbnail": "launcher/images/instances/vanilla-thumb.jpg",
     "jvm_args": [],
     "game_args": []
   }
