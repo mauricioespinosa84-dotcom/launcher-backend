@@ -1,0 +1,15 @@
+{
+  "profiles": {
+   "1c67a622ab6b4c4b96042c95f61ab42c": {
+            "lastUsed": "2026-02-07T07:43:28.303Z",
+            "lastVersionId": "fabric-loader-0.18.4-1.21.1",
+            "created": "2026-02-07T03:04:45.000Z",
+            "icon": "Emerald_Block",
+            "name": "fabric 1.21.1",
+            "type": "custom",
+            "resolution": {
+                "width": 854,
+                "height": 480
+            }
+        }
+}

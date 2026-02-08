@@ -1,7 +1,31 @@
-{
+{"MINECRAFT EXTREMO": {
+    "name": "MINECRAFT EXTREMO",
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/manifest.json",
+    "loader": {
+      "loader_type": "fabric",
+      "loader_version": "0.18.4",
+      "minecraft_version": "1.21.1"
+    },
+    "verify": true,
+    "ignored": ["logs"],
+    "whitelistActive": false,
+    "whitelist": [],
+    "status": {
+      "nameServer": "MINECRAFT EXTREMO",
+      "ip": "tu-dominio.com",
+      "port": 25565
+    },
+    "background": "launcher/images/instances/extremo-bg.jpg",
+    "icon": "launcher/images/instances/extremo-icon.png",
+    "thumbnail": "launcher/images/instances/extremo-thumb.jpg",
+    "jvm_args": [],
+    "game_args": []
+  },
   "Forge": {
     "name": "Forge",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/forge/manifest.json",
+ "maintenance": true,
+    "maintenancemsg": "Servidor en mantenimiento. Vuelve más tarde.",
     "loader": {
       "loader_type": "forge",
       "loader_version": "1.20.1-47.4.16",
@@ -25,6 +49,8 @@
   "Vanilla": {
     "name": "Vanilla",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/vanilla/manifest.json",
+ "maintenance": true,
+    "maintenancemsg": "Servidor en mantenimiento. Vuelve más tarde.",
     "loader": {
       "loader_type": "none",
       "loader_version": "none",
