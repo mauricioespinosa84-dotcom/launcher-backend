@@ -1,4 +1,4 @@
-﻿{
+{
     "maintenance":  false,
     "maintenance_message":  "En mantenimiento",
     "online":  false,
@@ -8,8 +8,8 @@
     "news_enabled":  true,
     "notification":  {
                          "enabled":  true,
-                         "title":  "ðŸš€ Â¡Nuevo Launcher de OTTER STUDIOS!",
-                         "content":  "Mejor rendimiento, mÃ¡s estable y optimizado. Â¡Gracias por apoyar!",
+                         "title":  "🚀 ¡Nuevo Launcher de OTTER STUDIOS!",
+                         "content":  "Mejor rendimiento, más estable y optimizado. ¡Gracias por apoyar!",
                          "color":  "#c7a17a",
                          "icon":  "info"
                      },
