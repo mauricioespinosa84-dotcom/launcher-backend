@@ -1,0 +1,8 @@
+﻿{
+  "name": "launcher-backend",
+  "private": true,
+  "scripts": {
+    "manifest:generate": "node tools/generate-manifests.js --root files --base-url https://mauricioespinosa84-dotcom.github.io/launcher-backend/files --include mods,config,resourcepacks,versions,libraries,shaderpacks",
+    "build": "npm run manifest:generate"
+  }
+}
