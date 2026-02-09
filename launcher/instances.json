@@ -1,5 +1,5 @@
-{"MINECRAFT EXTREMO": {
-    "name": "MINECRAFT EXTREMO",
+{"EXPERIMENTO HARDCORE": {
+    "name": "EXPERIMENTO HARDCORE",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/manifest.json",
     "loader": {
       "loader_type": "fabric",
@@ -11,8 +11,8 @@
     "whitelistActive": false,
     "whitelist": [],
     "status": {
-      "nameServer": "MINECRAFT EXTREMO",
-      "ip": "tu-dominio.com",
+      "nameServer": "Experimento Hardcore",
+      "ip": "otter.lunathosting.com:25567",
       "port": 25565
     },
     "background": "launcher/images/instances/extremo-bg.jpg",
