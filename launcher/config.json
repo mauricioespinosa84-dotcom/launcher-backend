@@ -14,7 +14,8 @@
     "icon": "info"
   },
   "launcher_config": {
-    "mklib_core_enabled": false
+    "mklib_core_enabled": false,
+    "queue_enabled": false
   },
-  "cache_version": "2026-02-08-10"
+  "cache_version": "2026-02-08-11"
 }
