@@ -1,5 +1,5 @@
 {"EXPERIMENTO HARDCORE": {
-    "name": "EXPERIMENTO HARDCORE",
+    "name": "Experimento Hardcore",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/manifest.json",
     "loader": {
       "loader_type": "fabric",
@@ -13,7 +13,7 @@
     "status": {
       "nameServer": "Experimento Hardcore",
       "ip": "otter.lunathosting.com:25567",
-      "port": 25565
+      "port": 25567
     },
     "background": "launcher/images/instances/extremo-bg.jpg",
     "icon": "launcher/images/instances/extremo-icon.png",
