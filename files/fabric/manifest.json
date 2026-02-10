@@ -1740,10 +1740,10 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/libraries/tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-64.jar"
   },
   {
-    "path": "mods/BiomesOPlenty-fabric-1.21.1-21.1.0.13.jar",
-    "hash": "2b85329a1862b04c9e27e12272b6056378839bf2",
-    "size": 22349734,
-    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/BiomesOPlenty-fabric-1.21.1-21.1.0.13.jar"
+    "path": "mods/BiomesOPlenty-fabric-1.21.1-0.0.0-local.jar",
+    "hash": "57aacb945ffa390b21454cfcfd6087daedf02792",
+    "size": 22361608,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/BiomesOPlenty-fabric-1.21.1-0.0.0-local.jar"
   },
   {
     "path": "mods/fabric-api-0.116.8+1.21.1.jar",
