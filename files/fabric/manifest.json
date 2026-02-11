@@ -1746,6 +1746,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/BiomesOPlenty-fabric-1.21.1-0.0.0-local.jar"
   },
   {
+    "path": "mods/cinematic-1.0.jar",
+    "hash": "5223c5a1666d2f80468834a9f3db88254f81ba3e",
+    "size": 357407,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/cinematic-1.0.jar"
+  },
+  {
     "path": "mods/CustomPlayerModels-Fabric-1.21-0.6.25a.jar",
     "hash": "6e800d94eb2f54af2a6b63aa8cca9e64f5ff6808",
     "size": 2832867,
