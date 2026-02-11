@@ -1746,16 +1746,118 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/BiomesOPlenty-fabric-1.21.1-0.0.0-local.jar"
   },
   {
+    "path": "mods/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
+    "hash": "9be2a237e27f20d2d00f0036a8be53d7d66c5df5",
+    "size": 863362,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/emotecraft-for-MC1.21.1-2.4.12-fabric.jar"
+  },
+  {
+    "path": "mods/emotetweaks-fabric-1.0.4.jar",
+    "hash": "11ba6a21e67941e88182739f68fc578c09ca746d",
+    "size": 70072,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/emotetweaks-fabric-1.0.4.jar"
+  },
+  {
+    "path": "mods/explosive-enhancement-1.3.2-1.21-1.21.1.jar",
+    "hash": "07725f58e05d46e1a3d9bb774e6b96c6fbe5dcb5",
+    "size": 114621,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/explosive-enhancement-1.3.2-1.21-1.21.1.jar"
+  },
+  {
     "path": "mods/fabric-api-0.116.8+1.21.1.jar",
     "hash": "7bb69655470af3afa456bb2b6e984c87fdfacf47",
     "size": 2425441,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fabric-api-0.116.8+1.21.1.jar"
   },
   {
+    "path": "mods/fabric-language-kotlin-1.12.1+kotlin.2.0.20.jar",
+    "hash": "5a5c0288ed6ab8c260b987c84d8cdbfe6bc928a7",
+    "size": 7168829,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fabric-language-kotlin-1.12.1+kotlin.2.0.20.jar"
+  },
+  {
+    "path": "mods/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar",
+    "hash": "23cbb7662b926c465478a4aafb3327d7dc0b0d0c",
+    "size": 632675,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar"
+  },
+  {
+    "path": "mods/fragmentum-fabric-1.21.1-2.1.0.jar",
+    "hash": "342db9f51543a536c5722ae95c86848c2a61b18f",
+    "size": 891389,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fragmentum-fabric-1.21.1-2.1.0.jar"
+  },
+  {
+    "path": "mods/framework-fabric-1.21.1-0.13.11.jar",
+    "hash": "87ce6c5c312da043e823e9407a04d307b5974d06",
+    "size": 1647903,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/framework-fabric-1.21.1-0.13.11.jar"
+  },
+  {
+    "path": "mods/fzzy_config-0.7.0+1.21.jar",
+    "hash": "b1c97badb928aeb73501905067571a4b2c2dcdad",
+    "size": 2202099,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fzzy_config-0.7.0+1.21.jar"
+  },
+  {
     "path": "mods/GlitchCore-fabric-1.21.1-2.1.0.0.jar",
     "hash": "46e6a284ca15f1f90114048b3e5bb64d831f8d72",
     "size": 329188,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/GlitchCore-fabric-1.21.1-2.1.0.0.jar"
+  },
+  {
+    "path": "mods/Iceberg-1.21.1-fabric-1.3.2.jar",
+    "hash": "170e30bf93ccba6d80dd481eedddae16cb549d29",
+    "size": 413302,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/Iceberg-1.21.1-fabric-1.3.2.jar"
+  },
+  {
+    "path": "mods/immersive_melodies-fabric-0.6.2+1.21.1.jar",
+    "hash": "78e4babb7c1bcca7204ffb9bb2474f6e82d468e5",
+    "size": 5530304,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/immersive_melodies-fabric-0.6.2+1.21.1.jar"
+  },
+  {
+    "path": "mods/immersive_paintings-fabric-1.21.1-0.7.6.jar",
+    "hash": "af77165cbb54d973efaa35b299ad4adb17f8f3b7",
+    "size": 5363008,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/immersive_paintings-fabric-1.21.1-0.7.6.jar"
+  },
+  {
+    "path": "mods/ItemBorders-1.21-common-1.2.5-transformProductionFabric.jar",
+    "hash": "836bc6af2d666fa80b9c51af16ea88e907fbd916",
+    "size": 166,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/ItemBorders-1.21-common-1.2.5-transformProductionFabric.jar"
+  },
+  {
+    "path": "mods/lootbeams-3.6.1-mc1.21-.1.jar",
+    "hash": "8f30e6a13e19e5f2ce21a71fc7eaf1f728c8781d",
+    "size": 517762,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/lootbeams-3.6.1-mc1.21-.1.jar"
+  },
+  {
+    "path": "mods/obscure_tooltips-fabric-1.21.1-4.2.2.jar",
+    "hash": "cc90da4044a8356d5ebd311852e19e9cdb53dc2d",
+    "size": 453186,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/obscure_tooltips-fabric-1.21.1-4.2.2.jar"
+  },
+  {
+    "path": "mods/Prism-1.21.1-fabric-1.0.11.jar",
+    "hash": "feb245033bce5560ad0243b0ff519590ea9e3664",
+    "size": 61661,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/Prism-1.21.1-fabric-1.0.11.jar"
+  },
+  {
+    "path": "mods/refurbished_furniture-fabric-1.21.1-1.0.22.jar",
+    "hash": "86b532fc5fa10b6533ae8b00c1e564f0047994c2",
+    "size": 6965259,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/refurbished_furniture-fabric-1.21.1-1.0.22.jar"
+  },
+  {
+    "path": "mods/TalkingHeads-1.0.10+1.21.1+fabric.jar",
+    "hash": "679060b175e84424e2b0c24cc720f5ccd7d530d0",
+    "size": 282652,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/TalkingHeads-1.0.10+1.21.1+fabric.jar"
   },
   {
     "path": "mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
@@ -1765,15 +1867,33 @@
   },
   {
     "path": "mods/utilsmod-1.0-SNAPSHOT.jar",
-    "hash": "a151759d175ccaf056e07b92eb74e1d078119fa5",
-    "size": 5577,
+    "hash": "ce6b23ce0d888530a73195a6b988a81eab2efd7c",
+    "size": 85028,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/utilsmod-1.0-SNAPSHOT.jar"
+  },
+  {
+    "path": "mods/voicechat-fabric-1.21.1-2.6.11.jar",
+    "hash": "7a11b339144c9de7ad33addc3b01915b1db2168a",
+    "size": 5341236,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/voicechat-fabric-1.21.1-2.6.11.jar"
   },
   {
     "path": "mods/worldedit-mod-7.3.8.jar",
     "hash": "924fe181a29bd66be6783f6d589968ab0ee02250",
     "size": 6222854,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/worldedit-mod-7.3.8.jar"
+  },
+  {
+    "path": "mods/xaerominimap-fabric-1.21.1-25.3.10.jar",
+    "hash": "a231fa03625036fb8118a1a5981f22eac54c3597",
+    "size": 2177333,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/xaerominimap-fabric-1.21.1-25.3.10.jar"
+  },
+  {
+    "path": "mods/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+    "hash": "879469ab8b697796219254a097d00ff48cabf3c5",
+    "size": 1413973,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
   },
   {
     "path": "versions/fabric-loader-0.18.4-1.21.1/client.txt",
