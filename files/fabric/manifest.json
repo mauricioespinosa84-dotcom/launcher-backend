@@ -1902,6 +1902,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/Pehkui-3.8.3+1.14.4-1.21.jar"
   },
   {
+    "path": "mods/prickle-fabric-1.21.1-21.1.2.jar",
+    "hash": "a0663f9515f7bd35c3d2d0635ec0466703d99117",
+    "size": 86025,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/prickle-fabric-1.21.1-21.1.2.jar"
+  },
+  {
     "path": "mods/Prism-1.21.1-fabric-1.0.11.jar",
     "hash": "feb245033bce5560ad0243b0ff519590ea9e3664",
     "size": 61661,
