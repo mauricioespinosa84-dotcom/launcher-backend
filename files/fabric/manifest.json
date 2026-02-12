@@ -1788,10 +1788,10 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/emotetweaks-fabric-1.0.4.jar"
   },
   {
-    "path": "mods/EnchantmentDescriptions-forge-1.21.1-21.1.9.jar",
-    "hash": "4d10ee4b7797ae71912444b7d4fa2fd7a2d5bb14",
-    "size": 81816,
-    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/EnchantmentDescriptions-forge-1.21.1-21.1.9.jar"
+    "path": "mods/enchdesc-fabric-1.21.1-21.1.9.jar",
+    "hash": "9bda22c7e3ca808ba52c93a99f5918b086f4d6db",
+    "size": 83422,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/enchdesc-fabric-1.21.1-21.1.9.jar"
   },
   {
     "path": "mods/entityculling-fabric-1.9.5-mc1.21.1.jar",
