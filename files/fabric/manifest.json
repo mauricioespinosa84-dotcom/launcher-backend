@@ -1920,6 +1920,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/refurbished_furniture-fabric-1.21.1-1.0.22.jar"
   },
   {
+    "path": "mods/skinrestorer-2.5.0+1.21-fabric.jar",
+    "hash": "ad9bf698becaa048d8b42b8b471e31298c205f3a",
+    "size": 217129,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/skinrestorer-2.5.0+1.21-fabric.jar"
+  },
+  {
     "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
     "hash": "928a2598178c3a58b0638bab842f467d2e49251a",
     "size": 1297761,
