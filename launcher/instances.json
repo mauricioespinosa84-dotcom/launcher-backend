@@ -1,5 +1,5 @@
-{"EXPERIMENTO HARDCORE": {
-    "name": "Experimento Hardcore",
+{"LA DISCO": {
+    "name": "LA DISCO",
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/manifest.json",
     "loader": {
       "loader_type": "fabric",
@@ -11,13 +11,13 @@
     "whitelistActive": false,
     "whitelist": [],
     "status": {
-      "nameServer": "Experimento Hardcore",
-      "ip": "otter.lunathosting.com:25567",
-      "port": 25567
+      "nameServer": "La Disco",
+      "ip": "144.202.21.93",
+      "port": 25566
     },
-    "background": "launcher/images/instances/extremo-bg.jpg",
+    "background": "launcher/images/instances/extremo-bg.png",
     "icon": "launcher/images/instances/extremo-icon.png",
-    "thumbnail": "launcher/images/instances/extremo-thumb.jpg",
+    "thumbnail": "launcher/images/instances/extremo-thumb.png",
     "jvm_args": [],
     "game_args": []
   },

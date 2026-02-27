@@ -8,7 +8,7 @@
   "news_enabled": true,
   "notification": {
     "enabled": true,
-    "title": "🚀 ¡Nuevo Launcher de OTTER STUDIOS!",
+    "title": "🚀 ¡Nuevo Launcher de TAVARI STUDIOS!",
     "content": "Mejor rendimiento, más estable y optimizado. ¡Gracias por apoyar!",
     "color": "#c7a17a",
     "icon": "info"
@@ -17,5 +17,5 @@
     "mklib_core_enabled": false,
     "queue_enabled": false
   },
-  "cache_version": "2026-02-08-27"
+  "cache_version": "2026-02-08-28"
 }
