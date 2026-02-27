@@ -1,11 +1,5 @@
 [
     {
-        "path":  "launcher_profiles.json",
-        "hash":  "5096809cfcb0038b8d8ae730198fe6934163e92b",
-        "size":  439,
-        "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/launcher_profiles.json"
-    },
-    {
         "path":  "libraries/at/yawk/lz4/lz4-java/1.8.1/lz4-java-1.8.1.jar",
         "hash":  "1f30a180ee04ccd53339a716aec13cae60a013b5",
         "size":  683071,
@@ -1759,8 +1753,8 @@
     },
     {
         "path":  "mods/lightsrender-1.0-SNAPSHOT.jar",
-        "hash":  "b37df1b1108715b92bd5a2393eaf85f7847d7f99",
-        "size":  122505,
+        "hash":  "c68b2ca72c0e473e8d9ae700f3b85c995403c61b",
+        "size":  37706193,
         "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/lightsrender-1.0-SNAPSHOT.jar"
     },
     {
@@ -1774,17 +1768,5 @@
         "hash":  "924fe181a29bd66be6783f6d589968ab0ee02250",
         "size":  6222854,
         "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/worldedit-mod-7.3.8.jar"
-    },
-    {
-        "path":  "versions/fabric-loader-0.18.4-1.21.1/client.txt",
-        "hash":  "2244b6f072256667bcd9a73df124d6c58de77992",
-        "size":  9598610,
-        "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/versions/fabric-loader-0.18.4-1.21.1/client.txt"
-    },
-    {
-        "path":  "versions/fabric-loader-0.18.4-1.21.1/fabric-loader-0.18.4-1.21.1.json",
-        "hash":  "fb9720adb3e0738f3a8925eff1934cc9a1893d00",
-        "size":  2847,
-        "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/versions/fabric-loader-0.18.4-1.21.1/fabric-loader-0.18.4-1.21.1.json"
     }
 ]
