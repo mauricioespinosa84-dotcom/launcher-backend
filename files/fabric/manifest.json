@@ -1740,6 +1740,18 @@
         "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/libraries/tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-64.jar"
     },
     {
+        "path":  "mods/CMDCam-Fabric-new.jar",
+        "hash":  "70eedaf0ab871f04c1e0ac8f644189263dfb221e",
+        "size":  182095,
+        "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/CMDCam-Fabric-new.jar"
+    },
+    {
+        "path":  "mods/CreativeCore_FABRIC_v2.13.29_mc1.21.1.jar",
+        "hash":  "59337ac0983ca4f0b8ea76ed022eedd5280cbe3b",
+        "size":  1247898,
+        "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/CreativeCore_FABRIC_v2.13.29_mc1.21.1.jar"
+    },
+    {
         "path":  "mods/fabric-api-0.116.8+1.21.1.jar",
         "hash":  "7bb69655470af3afa456bb2b6e984c87fdfacf47",
         "size":  2425441,
@@ -1753,8 +1765,8 @@
     },
     {
         "path":  "mods/lightsrender-1.0-SNAPSHOT.jar",
-        "hash":  "fc9fc0482e69fdf53045906c198895a85649bebf",
-        "size":  37706192,
+        "hash":  "b71d6ee456b1bea897015541e85e3d6372d5d865",
+        "size":  37734232,
         "url":  "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/lightsrender-1.0-SNAPSHOT.jar"
     },
     {
