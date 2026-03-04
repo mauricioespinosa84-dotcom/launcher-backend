@@ -4,6 +4,7 @@
     "scripts":  {
                     "cache:bump":  "node tools/bump-cache-version.js --file launcher/config.json",
                     "build":  "npm run cache:bump \u0026\u0026 npm run manifest:generate",
-                    "manifest:generate":  "node tools/generate-manifests.js --root files --base-url https://mauricioespinosa84-dotcom.github.io/launcher-backend/files --include mods,config,resourcepacks,versions,libraries,shaderpacks"
+                    "manifest:generate":  "node tools/generate-manifests.js --root files --base-url https://mauricioespinosa84-dotcom.github.io/launcher-backend/files --include mods,config,resourcepacks,versions,libraries,shaderpacks --prune-libraries true",
+                    "manifest:watch":  "node tools/watch-manifests.js --root files --base-url https://mauricioespinosa84-dotcom.github.io/launcher-backend/files --include mods,config,resourcepacks,versions,libraries,shaderpacks --prune-libraries true --cache-file launcher/config.json"
                 }
 }
