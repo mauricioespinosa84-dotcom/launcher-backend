@@ -8,8 +8,8 @@
   "news_enabled": true,
   "notification": {
     "enabled": true,
-    "title": "ðŸš€ Â¡Nuevo Launcher de TAVARI STUDIOS!",
-    "content": "Mejor rendimiento, mÃ¡s estable y optimizado. Â¡Gracias por apoyar!",
+    "title": "Ã°Å¸Å¡â‚¬ Ã‚Â¡Nuevo Launcher de TAVARI STUDIOS!",
+    "content": "Mejor rendimiento, mÃƒÂ¡s estable y optimizado. Ã‚Â¡Gracias por apoyar!",
     "color": "#c7a17a",
     "icon": "info"
   },
@@ -17,6 +17,8 @@
     "mklib_core_enabled": false,
     "queue_enabled": false
   },
-  "cache_version": "2026-03-04-094745",
-  "staff_users": []
+  "cache_version": "2026-03-04-100825",
+  "staff_users": [
+    "TurtleManDev"
+  ]
 }

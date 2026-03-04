@@ -29,7 +29,7 @@
                      "game_args":  [
 
                                    ],
-                     "staffOnly":  false,
+                     "staffOnly":  true,
                      "staffmsg":  "Staff trabajando, no puedes entrar."
                  },
     "Forge":  {
