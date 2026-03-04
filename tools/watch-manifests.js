@@ -15,6 +15,19 @@ function parseBoolean(value, defaultValue = false) {
   return ['1', 'true', 'yes', 'on'].includes(normalized);
 }
 
+function normalizeRelativePath(value) {
+  if (!value || typeof value !== 'string') return '';
+  return value
+    .replace(/\\/g, '/')
+    .replace(/^\.\//, '')
+    .replace(/^\/+/, '')
+    .trim();
+}
+
+function normalizeKey(value) {
+  return normalizeRelativePath(value).toLowerCase();
+}
+
 function runNodeScript(cwd, scriptFile, scriptArgs = []) {
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [scriptFile, ...scriptArgs], {
@@ -38,81 +51,143 @@ class ManifestWatcher {
   constructor(options) {
     this.cwd = options.cwd;
     this.root = options.root;
+    this.watchRoot = options.watchRoot;
     this.baseUrl = options.baseUrl;
     this.include = options.include;
     this.pruneLibraries = options.pruneLibraries;
     this.cacheConfigFile = options.cacheConfigFile;
     this.debounceMs = options.debounceMs;
+
     this.watchHandle = null;
     this.timer = null;
     this.running = false;
-    this.pendingReason = null;
+    this.pendingRun = null;
+
+    this.rootKey = normalizeKey(this.root).replace(/\/+$/, '');
+    this.cacheFileKey = normalizeKey(this.cacheConfigFile);
   }
 
   shouldIgnoreFile(relativePath) {
-    if (!relativePath || typeof relativePath !== 'string') return true;
-    const normalized = relativePath.replace(/\\/g, '/').toLowerCase();
+    const normalized = normalizeKey(relativePath);
     if (!normalized) return true;
+
+    if (normalized === this.cacheFileKey) {
+      return true;
+    }
 
     if (normalized.endsWith('/manifest.json') || normalized === 'manifest.json') {
       return true;
     }
 
-    if (normalized.endsWith('.tmp') || normalized.endsWith('.swp')) {
+    if (normalized.startsWith('.git/') || normalized === '.git') {
+      return true;
+    }
+
+    if (normalized.startsWith('node_modules/') || normalized === 'node_modules') {
+      return true;
+    }
+
+    if (
+      normalized.endsWith('.tmp') ||
+      normalized.endsWith('.swp') ||
+      normalized.endsWith('.swx') ||
+      normalized.endsWith('.ds_store')
+    ) {
       return true;
     }
 
     return false;
   }
 
-  scheduleRun(reason) {
-    this.pendingReason = reason || 'filesystem-change';
+  isUnderManifestRoot(relativePath) {
+    const normalized = normalizeKey(relativePath);
+    if (!normalized || !this.rootKey) return false;
+    return normalized === this.rootKey || normalized.startsWith(`${this.rootKey}/`);
+  }
+
+  classifyChange(relativePath) {
+    const normalized = normalizeRelativePath(relativePath);
+    if (this.shouldIgnoreFile(normalized)) return null;
+
+    if (this.isUnderManifestRoot(normalized)) {
+      return 'full';
+    }
+
+    return 'cache';
+  }
+
+  mergeModes(currentMode, nextMode) {
+    if (currentMode === 'full' || nextMode === 'full') return 'full';
+    return nextMode || currentMode || 'cache';
+  }
+
+  scheduleRun(mode, reason) {
+    const nextMode = mode === 'full' ? 'full' : 'cache';
+
+    if (!this.pendingRun) {
+      this.pendingRun = {
+        mode: nextMode,
+        reason: reason || 'filesystem-change'
+      };
+    } else {
+      this.pendingRun.mode = this.mergeModes(this.pendingRun.mode, nextMode);
+      this.pendingRun.reason = reason || this.pendingRun.reason;
+    }
+
     if (this.timer) clearTimeout(this.timer);
     this.timer = setTimeout(() => {
+      const queued = this.pendingRun || { mode: 'cache', reason: 'debounced-change' };
+      this.pendingRun = null;
       this.timer = null;
-      this.run(this.pendingReason);
+      this.run(queued.mode, queued.reason);
     }, this.debounceMs);
   }
 
-  async run(reason) {
+  async run(mode = 'cache', reason = 'manual') {
     if (this.running) {
-      this.pendingReason = reason || 'queued-change';
+      this.scheduleRun(mode, `queued:${reason}`);
       return;
     }
 
     this.running = true;
-    const runReason = reason || 'manual';
-    console.log(`\n[watch-manifests] Running sync (${runReason})`);
+    const runMode = mode === 'full' ? 'full' : 'cache';
+    console.log(`\n[watch-manifests] Running ${runMode} sync (${reason})`);
 
     try {
-      const manifestArgs = [
-        '--root',
-        this.root,
-        '--base-url',
-        this.baseUrl,
-        '--include',
-        this.include,
-        '--prune-libraries',
-        String(this.pruneLibraries)
-      ];
+      if (runMode === 'full') {
+        const manifestArgs = [
+          '--root',
+          this.root,
+          '--base-url',
+          this.baseUrl,
+          '--include',
+          this.include,
+          '--prune-libraries',
+          String(this.pruneLibraries)
+        ];
 
-      await runNodeScript(this.cwd, 'tools/generate-manifests.js', manifestArgs);
+        await runNodeScript(this.cwd, 'tools/generate-manifests.js', manifestArgs);
+      }
+
       await runNodeScript(this.cwd, 'tools/bump-cache-version.js', [
         '--file',
         this.cacheConfigFile
       ]);
 
-      console.log('[watch-manifests] Manifest + cache_version updated');
+      if (runMode === 'full') {
+        console.log('[watch-manifests] Manifest + cache_version updated');
+      } else {
+        console.log('[watch-manifests] cache_version updated');
+      }
     } catch (error) {
       console.error(`[watch-manifests] Sync failed: ${error.message}`);
     } finally {
       this.running = false;
-      if (this.pendingReason && this.pendingReason !== runReason) {
-        const nextReason = this.pendingReason;
-        this.pendingReason = null;
-        this.scheduleRun(`queued-after-${nextReason}`);
-      } else {
-        this.pendingReason = null;
+
+      if (this.pendingRun && !this.timer) {
+        const nextRun = this.pendingRun;
+        this.pendingRun = null;
+        this.scheduleRun(nextRun.mode, `queued-after:${nextRun.reason}`);
       }
     }
   }
@@ -120,18 +195,27 @@ class ManifestWatcher {
   start() {
     const rootPath = path.resolve(this.cwd, this.root);
     if (!fs.existsSync(rootPath)) {
-      throw new Error(`Root folder not found: ${rootPath}`);
+      throw new Error(`Manifest root folder not found: ${rootPath}`);
     }
 
-    this.run('startup');
+    const watchPath = path.resolve(this.cwd, this.watchRoot);
+    if (!fs.existsSync(watchPath)) {
+      throw new Error(`Watch root folder not found: ${watchPath}`);
+    }
+
+    this.run('full', 'startup');
 
     this.watchHandle = fs.watch(
-      rootPath,
+      watchPath,
       { recursive: true },
       (eventType, fileName) => {
         if (!fileName) return;
-        if (this.shouldIgnoreFile(fileName)) return;
-        this.scheduleRun(`${eventType}:${fileName}`);
+
+        const normalized = normalizeRelativePath(fileName);
+        const mode = this.classifyChange(normalized);
+        if (!mode) return;
+
+        this.scheduleRun(mode, `${eventType}:${normalized}`);
       }
     );
 
@@ -139,7 +223,9 @@ class ManifestWatcher {
       console.error(`[watch-manifests] Watch error: ${error.message}`);
     });
 
-    console.log(`[watch-manifests] Watching ${rootPath}`);
+    console.log(`[watch-manifests] Watching ${watchPath}`);
+    console.log(`[watch-manifests] Manifest root: ${rootPath}`);
+    console.log(`[watch-manifests] Cache file: ${path.resolve(this.cwd, this.cacheConfigFile)}`);
   }
 
   stop() {
@@ -157,6 +243,7 @@ class ManifestWatcher {
 function main() {
   const cwd = process.cwd();
   const root = getArg('--root') || process.env.MANIFEST_ROOT || 'files';
+  const watchRoot = getArg('--watch-root') || process.env.MANIFEST_WATCH_ROOT || '.';
   const baseUrl = getArg('--base-url') || process.env.MANIFEST_BASE_URL;
   const include =
     getArg('--include') ||
@@ -177,6 +264,7 @@ function main() {
   const watcher = new ManifestWatcher({
     cwd,
     root,
+    watchRoot,
     baseUrl,
     include,
     pruneLibraries,

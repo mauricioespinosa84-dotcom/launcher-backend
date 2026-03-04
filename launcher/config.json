@@ -8,8 +8,8 @@
   "news_enabled": true,
   "notification": {
     "enabled": true,
-    "title": "🚀 ¡Nuevo Launcher de TAVARI STUDIOS!",
-    "content": "Mejor rendimiento, más estable y optimizado. ¡Gracias por apoyar!",
+    "title": "ðŸš€ Â¡Nuevo Launcher de TAVARI STUDIOS!",
+    "content": "Mejor rendimiento, mÃ¡s estable y optimizado. Â¡Gracias por apoyar!",
     "color": "#c7a17a",
     "icon": "info"
   },
@@ -17,5 +17,6 @@
     "mklib_core_enabled": false,
     "queue_enabled": false
   },
-  "cache_version": "2026-03-04-084427"
+  "cache_version": "2026-03-04-094745",
+  "staff_users": []
 }

@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 function getArg(name) {
@@ -20,12 +20,18 @@ function formatTimestamp(date) {
   ].join('');
 }
 
+function stripBom(text) {
+  if (typeof text !== 'string') return '';
+  return text.replace(/^\uFEFF/, '');
+}
+
 function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const raw = stripBom(fs.readFileSync(filePath, 'utf8'));
+  return JSON.parse(raw);
 }
 
 function writeJson(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n');
 }
 
 const fileArg = getArg('--file') || process.env.CACHE_VERSION_FILE || 'launcher/config.json';
