@@ -8,9 +8,9 @@
   "news_enabled": true,
   "notification": {
     "enabled": true,
-    "title": "Ã°Å¸Å¡â‚¬ Ã‚Â¡Nuevo Launcher de TAVARI STUDIOS!",
-    "content": "Mejor rendimiento, mÃƒÂ¡s estable y optimizado. Ã‚Â¡Gracias por apoyar!",
-    "color": "#c7a17a",
+    "title": "¡Nuevo Launcher de TAVARI STUDIOS!",
+    "content": "Mejor rendimiento, mas estable y optimizado. ‚¡Gracias por apoyar!",
+    "color": "#87d676",
     "icon": "info"
   },
   "launcher_config": {
