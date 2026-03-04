@@ -1,5 +1,131 @@
 [
   {
+    "path": "config/fabric/indigo-renderer.properties",
+    "hash": "a28c94ae54894ceafb74d8aafe40e3990f07549b",
+    "size": 290,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fabric/indigo-renderer.properties"
+  },
+  {
+    "path": "config/fancymenu/assets/botonjugar2.png",
+    "hash": "a36fbe11ef78832dc074b295969aa68f9ef8f8dd",
+    "size": 1448275,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/assets/botonjugar2.png"
+  },
+  {
+    "path": "config/fancymenu/assets/botonjugar3.png",
+    "hash": "3fac275f7392a1853a7c8794d3081dcac74f7c0f",
+    "size": 1603808,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/assets/botonjugar3.png"
+  },
+  {
+    "path": "config/fancymenu/assets/botonopciones.png",
+    "hash": "ed06dcf09f57003f4f733eb6a7fa0c2863858e72",
+    "size": 1934067,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/assets/botonopciones.png"
+  },
+  {
+    "path": "config/fancymenu/assets/botonreanudar.png",
+    "hash": "ade33712a48c9c458569c1f9538b1f674c7bc842",
+    "size": 2695051,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/assets/botonreanudar.png"
+  },
+  {
+    "path": "config/fancymenu/assets/fondomenu.png",
+    "hash": "ccb990ef7c0777a6e2b99cb5ebac1fbe47722f13",
+    "size": 2138526,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/assets/fondomenu.png"
+  },
+  {
+    "path": "config/fancymenu/customizablemenus.txt",
+    "hash": "0100859f20f458dace46d7a935f7ddb203c0ace8",
+    "size": 113,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/customizablemenus.txt"
+  },
+  {
+    "path": "config/fancymenu/customization/pause_screen_layout.txt",
+    "hash": "3e3f2edc39117abca899db6de01deb7671d599cf",
+    "size": 23690,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/customization/pause_screen_layout.txt"
+  },
+  {
+    "path": "config/fancymenu/customization/title_screen_layout.txt",
+    "hash": "ba818c0aa7ef46461773bdbb152008050fa8396a",
+    "size": 30666,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/customization/title_screen_layout.txt"
+  },
+  {
+    "path": "config/fancymenu/custom_gui_screens.txt",
+    "hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c",
+    "size": 51,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/custom_gui_screens.txt"
+  },
+  {
+    "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+    "hash": "09b1de6e8ef79ea88ab6faee32b717a19e1d9d74",
+    "size": 199,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+  },
+  {
+    "path": "config/fancymenu/legacy_checklist.txt",
+    "hash": "f1569161a6ad24cc61b02dece317ea16e351ff1e",
+    "size": 42,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/legacy_checklist.txt"
+  },
+  {
+    "path": "config/fancymenu/normalized_scroll_screens.json",
+    "hash": "8f39232b4e0c6bbbb366de0fd7aaf67284956f8e",
+    "size": 27,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/normalized_scroll_screens.json"
+  },
+  {
+    "path": "config/fancymenu/options.txt",
+    "hash": "986b5fc23b163059cb7aa050446abb2d8b8b821b",
+    "size": 2128,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/options.txt"
+  },
+  {
+    "path": "config/fancymenu/ui_themes/dark.json",
+    "hash": "22cefe5b52927d21f68b7e1537f52fba7ec6cca1",
+    "size": 6218,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/ui_themes/dark.json"
+  },
+  {
+    "path": "config/fancymenu/ui_themes/light.json",
+    "hash": "800a6df3553074fe5474a9dc43d0ce0fdeb8f131",
+    "size": 6220,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/ui_themes/light.json"
+  },
+  {
+    "path": "config/fancymenu/user_variables.db",
+    "hash": "b41f9d7688944b0d96eaa089a5a5bb74af28d258",
+    "size": 23,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/user_variables.db"
+  },
+  {
+    "path": "config/konkrete/locals/de_de.local",
+    "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+    "size": 369,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/konkrete/locals/de_de.local"
+  },
+  {
+    "path": "config/konkrete/locals/en_us.local",
+    "hash": "42badc338e767559db38a67bd3e8020a92000e56",
+    "size": 426,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/konkrete/locals/en_us.local"
+  },
+  {
+    "path": "config/konkrete/locals/pl_pl.local",
+    "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+    "size": 313,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/konkrete/locals/pl_pl.local"
+  },
+  {
+    "path": "config/konkrete/locals/pt_br.local",
+    "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+    "size": 322,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/konkrete/locals/pt_br.local"
+  },
+  {
     "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
     "hash": "dc4682125d5db647d6ce80a98b98945835adcd4b",
     "size": 1944518,
