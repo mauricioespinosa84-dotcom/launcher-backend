@@ -192,16 +192,34 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fabric-api-0.116.8+1.21.1.jar"
   },
   {
+    "path": "mods/fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+    "hash": "65903483bbf770824d821c6065309648aae95304",
+    "size": 4522643,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
+  },
+  {
     "path": "mods/geckolib-fabric-1.21.1-4.8.3.jar",
     "hash": "b82cb945e22f32d519c8a10face78149279e12ef",
     "size": 653263,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/geckolib-fabric-1.21.1-4.8.3.jar"
   },
   {
+    "path": "mods/konkrete_fabric_1.9.9_MC_1.21.jar",
+    "hash": "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
+    "size": 786695,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/konkrete_fabric_1.9.9_MC_1.21.jar"
+  },
+  {
     "path": "mods/lightsrender-1.0-SNAPSHOT.jar",
     "hash": "eec77b89495234ce289768a6d4a8bdb6fd996f14",
     "size": 44619203,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/lightsrender-1.0-SNAPSHOT.jar"
+  },
+  {
+    "path": "mods/melody_fabric_1.0.10_MC_1.21.jar",
+    "hash": "5624eea73f251c70a9489192d326f9b4aab3b13c",
+    "size": 188035,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/melody_fabric_1.0.10_MC_1.21.jar"
   },
   {
     "path": "mods/veil-fabric-1.21.1-3.1.1.jar",
