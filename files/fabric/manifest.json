@@ -1,7 +1,7 @@
 [
   {
     "path": "config/fabric/indigo-renderer.properties",
-    "hash": "a28c94ae54894ceafb74d8aafe40e3990f07549b",
+    "hash": "7deda1982013fa354fdb3e23b8d475c508e28a52",
     "size": 290,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fabric/indigo-renderer.properties"
   },
@@ -79,8 +79,8 @@
   },
   {
     "path": "config/fancymenu/options.txt",
-    "hash": "986b5fc23b163059cb7aa050446abb2d8b8b821b",
-    "size": 2128,
+    "hash": "8c3c9ba621741fa065dadc9dbbd73b5a4a8c1a68",
+    "size": 2129,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fancymenu/options.txt"
   },
   {
