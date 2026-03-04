@@ -72,6 +72,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/geckolib-fabric-1.21.1-4.8.3.jar"
   },
   {
+    "path": "mods/lightsrender-1.0-SNAPSHOT.jar",
+    "hash": "eec77b89495234ce289768a6d4a8bdb6fd996f14",
+    "size": 44619203,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/lightsrender-1.0-SNAPSHOT.jar"
+  },
+  {
     "path": "mods/veil-fabric-1.21.1-3.1.1.jar",
     "hash": "a064acf1ecf9faccc5e7376404d3b1c25e03a529",
     "size": 15190081,
