@@ -1,7 +1,19 @@
 [
   {
+    "path": "config/cmdcam-client.json",
+    "hash": "109e8bdbbbdb5bee6d2d7d0a39f1463e971960e9",
+    "size": 24,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/cmdcam-client.json"
+  },
+  {
+    "path": "config/creativecore-client.json",
+    "hash": "2ac12a74fc6c40a697dfeb4ee9eda22e9241a6b7",
+    "size": 23,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/creativecore-client.json"
+  },
+  {
     "path": "config/fabric/indigo-renderer.properties",
-    "hash": "7deda1982013fa354fdb3e23b8d475c508e28a52",
+    "hash": "275486a694a88811286838e8dd554a18bfbba60f",
     "size": 290,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/config/fabric/indigo-renderer.properties"
   },
