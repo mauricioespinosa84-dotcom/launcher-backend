@@ -3,6 +3,7 @@
   "maintenance_message": "En mantenimiento",
   "online": false,
   "client_id": "<MICROSOFT_CLIENT_ID>",
+  "discord_client_id": "1479578931668713586",
   "dataDirectory": "Minecraft",
   "rss": null,
   "news_enabled": true,
@@ -17,7 +18,7 @@
     "mklib_core_enabled": false,
     "queue_enabled": false
   },
-  "cache_version": "2026-03-06-174350",
+  "cache_version": "2026-03-06-190831",
   "staff_users": [
     "TurtleManDev",
     "Mejor06copia",
