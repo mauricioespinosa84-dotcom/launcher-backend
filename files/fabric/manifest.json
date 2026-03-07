@@ -234,6 +234,18 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/melody_fabric_1.0.10_MC_1.21.jar"
   },
   {
+    "path": "mods/plasmovoice-fabric-1.21-2.1.8.jar",
+    "hash": "5cc16c69dd328687a07e8e00a2f315b44e5f6141",
+    "size": 12245077,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/plasmovoice-fabric-1.21-2.1.8.jar"
+  },
+  {
+    "path": "mods/TalkingHeads-1.1.0+1.21.1+fabric.jar",
+    "hash": "71b911477acdd94765a8bb3ece30120bdbbbbdc6",
+    "size": 283848,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/TalkingHeads-1.1.0+1.21.1+fabric.jar"
+  },
+  {
     "path": "mods/veil-fabric-1.21.1-3.1.1.jar",
     "hash": "a064acf1ecf9faccc5e7376404d3b1c25e03a529",
     "size": 15190081,
