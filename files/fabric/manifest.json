@@ -186,10 +186,22 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/libraries/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
   },
   {
+    "path": "mods/alexscaves-2.0.2.jar",
+    "hash": "058e742f291781618ba2187009e1056c2aae872e",
+    "size": 74860079,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/alexscaves-2.0.2.jar"
+  },
+  {
     "path": "mods/Animorph-client-1.21.1-1.0.4-SNAPSHOT (1).jar",
     "hash": "e39daed833d0cd9ed360cdb490dc725a84ee4593",
     "size": 341107,
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/Animorph-client-1.21.1-1.0.4-SNAPSHOT (1).jar"
+  },
+  {
+    "path": "mods/citadel-2.7.0-1.21.1.jar",
+    "hash": "01b18dfa37528aebd63b49874c9ac7795a4fc084",
+    "size": 3033192,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/citadel-2.7.0-1.21.1.jar"
   },
   {
     "path": "mods/CMDCam-Fabric-new.jar",
