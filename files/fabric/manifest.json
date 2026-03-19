@@ -216,6 +216,12 @@
     "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
   },
   {
+    "path": "mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
+    "hash": "459b5f4c7297b2f7649d43137f3e5a069b69b707",
+    "size": 5569793,
+    "url": "https://mauricioespinosa84-dotcom.github.io/launcher-backend/files/fabric/mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar"
+  },
+  {
     "path": "mods/geckolib-fabric-1.21.1-4.8.3.jar",
     "hash": "b82cb945e22f32d519c8a10face78149279e12ef",
     "size": 653263,
